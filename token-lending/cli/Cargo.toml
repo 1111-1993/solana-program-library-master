@@ -12,7 +12,7 @@ version = "0.2.0"
 clap = "2.33.3"
 solana-clap-utils = { git = "https://github.com/1111-1993/solana.git" }
 solana-cli-config = { git = "https://github.com/1111-1993/solana.git" }
-solana-client = "1.10.15"
+solana-client = { git = "https://github.com/1111-1993/solana.git" }
 solana-logger = { git = "https://github.com/1111-1993/solana.git" }
 solana-sdk = { git = "https://github.com/1111-1993/solana.git" }
 solana-program = { git = "https://github.com/1111-1993/solana.git" }
