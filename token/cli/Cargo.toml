@@ -21,7 +21,7 @@ serde_json = "1.0.68"
 solana-account-decoder = { git = "https://github.com/1111-1993/solana.git" }
 solana-clap-utils = { git = "https://github.com/1111-1993/solana.git" }
 solana-cli-config = { git = "https://github.com/1111-1993/solana.git" }
-solana-cli-output = "=1.10.15"
+solana-cli-output = { git = "https://github.com/1111-1993/solana.git" }
 solana-client = { git = "https://github.com/1111-1993/solana.git" }
 solana-logger = { git = "https://github.com/1111-1993/solana.git" }
 solana-remote-wallet = { git = "https://github.com/1111-1993/solana.git" }

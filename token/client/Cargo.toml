@@ -10,7 +10,7 @@ version = "0.1.0"
 [dependencies]
 async-trait = "0.1"
 solana-client = { git = "https://github.com/1111-1993/solana.git" }
-solana-program-test = "1.10.15"
+solana-program-test = { git = "https://github.com/1111-1993/solana.git" }
 solana-sdk = { git = "https://github.com/1111-1993/solana.git" }
 # We never want the entrypoint for ATA, but we want the entrypoint for token when
 # testing token
