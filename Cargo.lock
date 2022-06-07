@@ -2261,36 +2261,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "metaplex-token-metadata"
-version = "0.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "abcc939f0afdc6db054b9998a1292d0a016244b382462e61cfc7c570624982cb"
-dependencies = [
- "arrayref",
- "borsh",
- "metaplex-token-vault",
- "num-derive",
- "num-traits",
- "solana-program 1.10.15 (registry+https://github.com/rust-lang/crates.io-index)",
- "spl-token 3.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "thiserror",
-]
-
-[[package]]
-name = "metaplex-token-vault"
-version = "0.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a5211991ba3273df89cd5e0f6f558bc8d7453c87c0546f915b4a319e1541df33"
-dependencies = [
- "borsh",
- "num-derive",
- "num-traits",
- "solana-program 1.10.15 (registry+https://github.com/rust-lang/crates.io-index)",
- "spl-token 3.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "thiserror",
-]
-
-[[package]]
 name = "mime"
 version = "0.3.16"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -6656,20 +6626,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e113fb6f3de07a243d434a56ec6f186dfd51cb08448239fe7bcae73f87ff28ff"
 dependencies = [
  "version_check",
-]
-
-[[package]]
-name = "stateless-asks"
-version = "0.1.0"
-dependencies = [
- "borsh",
- "metaplex-token-metadata",
- "solana-program 1.10.15 (git+https://github.com/1111-1993/solana.git)",
- "solana-program-test 1.10.15 (git+https://github.com/1111-1993/solana.git)",
- "solana-sdk 1.10.15 (git+https://github.com/1111-1993/solana.git)",
- "spl-associated-token-account 1.0.5",
- "spl-token 3.3.0",
- "thiserror",
 ]
 
 [[package]]
