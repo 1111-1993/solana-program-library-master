@@ -24,7 +24,7 @@ num-derive = "0.3.3"
 thiserror = "1.0.29"
 
 [dev-dependencies]
-solana-program-test = "1.10.15"
+solana-program-test = { git = "https://github.com/1111-1993/solana.git" }
 solana-sdk = { git = "https://github.com/1111-1993/solana.git" }
 
 [lib]

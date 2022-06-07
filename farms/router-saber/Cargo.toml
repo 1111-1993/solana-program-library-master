@@ -23,7 +23,7 @@ quarry-redeemer = { version = "1.10.0", features = ["no-entrypoint"] }
 spl-token = { version = "3.2.0", features = ["no-entrypoint"] }
 
 [dev-dependencies]
-solana-program-test = "1.10.15"
+solana-program-test = { git = "https://github.com/1111-1993/solana.git" }
 
 [lib]
 crate-type = ["cdylib", "lib"]

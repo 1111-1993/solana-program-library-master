@@ -20,7 +20,7 @@ uint = "0.9"
 borsh = "0.9.1"
 
 [dev-dependencies]
-solana-program-test = "1.10.15"
+solana-program-test = { git = "https://github.com/1111-1993/solana.git" }
 solana-sdk = { git = "https://github.com/1111-1993/solana.git" }
 
 [lib]

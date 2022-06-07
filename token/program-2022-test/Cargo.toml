@@ -16,7 +16,7 @@ walkdir = "2"
 [dev-dependencies]
 async-trait = "0.1"
 solana-program = { git = "https://github.com/1111-1993/solana.git" }
-solana-program-test = "1.10.15"
+solana-program-test = { git = "https://github.com/1111-1993/solana.git" }
 solana-sdk = { git = "https://github.com/1111-1993/solana.git" }
 spl-associated-token-account = { version = "1.0.5", path = "../../associated-token-account/program" }
 spl-memo = { version = "3.0.1", path = "../../memo/program", features = ["no-entrypoint"] }

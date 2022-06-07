@@ -28,5 +28,5 @@ quarry-redeemer = { version = "1.10.0", features = ["no-entrypoint"] }
 stable-swap-client = "1.5.2"
 
 [dev-dependencies]
-solana-program-test = "1.10.15"
+solana-program-test = { git = "https://github.com/1111-1993/solana.git" }
 
