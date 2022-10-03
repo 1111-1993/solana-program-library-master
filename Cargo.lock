@@ -555,7 +555,7 @@ version = "0.16.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9344318b9c787667b95cd2c5124f5eaf2bde35e959dd01ea04fc5b234c542c11"
 dependencies = [
- "clap",
+ "clap 2.34.0",
  "heck 0.3.3",
  "indexmap",
  "log",
@@ -667,10 +667,32 @@ dependencies = [
  "ansi_term",
  "atty",
  "bitflags",
- "strsim",
+ "strsim 0.8.0",
  "textwrap",
  "unicode-width",
  "vec_map",
+]
+
+[[package]]
+name = "clap"
+version = "4.0.8"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5840cd9093aabeabf7fd932754c435b7674520fc3ddc935c397837050f0f1e4b"
+dependencies = [
+ "atty",
+ "bitflags",
+ "clap_lex",
+ "strsim 0.10.0",
+ "termcolor",
+]
+
+[[package]]
+name = "clap_lex"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0d4198f73e42b4936b35b5bb248d81d2b595ecb170da0bac7655c54eedfa8da8"
+dependencies = [
+ "os_str_bytes",
 ]
 
 [[package]]
@@ -2575,6 +2597,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "os_str_bytes"
+version = "6.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9ff7415e9ae3fff1225851df9e0d9e4e5479f947619774677a63572e55e80eff"
+
+[[package]]
 name = "ouroboros"
 version = "0.14.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -4253,7 +4281,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4cd31a4ec4cb272b9c8ee6a96502db667675dbe7ebed05b8e8339891fc49148f"
 dependencies = [
  "chrono",
- "clap",
+ "clap 2.34.0",
  "rpassword",
  "solana-perf 1.10.15 (registry+https://github.com/rust-lang/crates.io-index)",
  "solana-remote-wallet 1.10.15 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -4270,7 +4298,7 @@ version = "1.10.15"
 source = "git+https://github.com/1111-1993/solana.git#3e91429b047d7eb7a49988fbcf5f934b8679ce4c"
 dependencies = [
  "chrono",
- "clap",
+ "clap 2.34.0",
  "rpassword",
  "solana-perf 1.10.15 (git+https://github.com/1111-1993/solana.git)",
  "solana-remote-wallet 1.10.15 (git+https://github.com/1111-1993/solana.git)",
@@ -4321,7 +4349,7 @@ dependencies = [
  "Inflector",
  "base64 0.13.0",
  "chrono",
- "clap",
+ "clap 2.34.0",
  "console 0.15.0",
  "humantime",
  "indicatif",
@@ -4346,7 +4374,7 @@ dependencies = [
  "Inflector",
  "base64 0.13.0",
  "chrono",
- "clap",
+ "clap 2.34.0",
  "console 0.15.0",
  "humantime",
  "indicatif",
@@ -4375,7 +4403,7 @@ dependencies = [
  "bincode",
  "bs58",
  "bytes",
- "clap",
+ "clap 2.34.0",
  "crossbeam-channel",
  "futures 0.3.21",
  "futures-util",
@@ -4427,7 +4455,7 @@ dependencies = [
  "bincode",
  "bs58",
  "bytes",
- "clap",
+ "clap 2.34.0",
  "crossbeam-channel",
  "futures 0.3.21",
  "futures-util",
@@ -4602,7 +4630,7 @@ checksum = "e61a36af19475e36d0ba37c4aeea14b10cf99dc5f4aab60caa047afce6840b98"
 dependencies = [
  "bincode",
  "byteorder",
- "clap",
+ "clap 2.34.0",
  "crossbeam-channel",
  "log",
  "serde",
@@ -4625,7 +4653,7 @@ source = "git+https://github.com/1111-1993/solana.git#3e91429b047d7eb7a49988fbcf
 dependencies = [
  "bincode",
  "byteorder",
- "clap",
+ "clap 2.34.0",
  "crossbeam-channel",
  "log",
  "serde",
@@ -4749,7 +4777,7 @@ checksum = "d2d92ab5262f1d0d090d3726a91e491b3fc0abd339acd23b1d42dccc05374e82"
 dependencies = [
  "bincode",
  "bv",
- "clap",
+ "clap 2.34.0",
  "crossbeam-channel",
  "flate2",
  "indexmap",
@@ -4925,7 +4953,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "165538af2a87abed9341863e99c4e327cfbe2c968d49e6405a68c945fcbebee1"
 dependencies = [
  "bincode",
- "clap",
+ "clap 2.34.0",
  "crossbeam-channel",
  "log",
  "nix",
@@ -4946,7 +4974,7 @@ version = "1.10.15"
 source = "git+https://github.com/1111-1993/solana.git#3e91429b047d7eb7a49988fbcf5f934b8679ce4c"
 dependencies = [
  "bincode",
- "clap",
+ "clap 2.34.0",
  "crossbeam-channel",
  "log",
  "nix",
@@ -5748,7 +5776,7 @@ version = "1.10.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "95ee774b76c5e73bb919999c5fee023c15f1d8aa68215ed6a574549b3ef69fcf"
 dependencies = [
- "clap",
+ "clap 2.34.0",
  "libc",
  "log",
  "nix",
@@ -6174,7 +6202,7 @@ name = "spl-feature-proposal-cli"
 version = "1.2.0"
 dependencies = [
  "chrono",
- "clap",
+ "clap 4.0.8",
  "solana-clap-utils 1.10.15 (git+https://github.com/1111-1993/solana.git)",
  "solana-cli-config 1.10.15 (git+https://github.com/1111-1993/solana.git)",
  "solana-client 1.10.15 (git+https://github.com/1111-1993/solana.git)",
@@ -6403,7 +6431,7 @@ dependencies = [
  "bincode",
  "borsh",
  "bs58",
- "clap",
+ "clap 4.0.8",
  "serde",
  "serde_derive",
  "serde_json",
@@ -6509,7 +6537,7 @@ dependencies = [
 name = "spl-token-cli"
 version = "2.0.15"
 dependencies = [
- "clap",
+ "clap 4.0.8",
  "console 0.14.1",
  "indicatif",
  "serde",
@@ -6571,7 +6599,7 @@ dependencies = [
 name = "spl-token-lending-cli"
 version = "0.2.0"
 dependencies = [
- "clap",
+ "clap 4.0.8",
  "solana-clap-utils 1.10.15 (git+https://github.com/1111-1993/solana.git)",
  "solana-cli-config 1.10.15 (git+https://github.com/1111-1993/solana.git)",
  "solana-client 1.10.15 (git+https://github.com/1111-1993/solana.git)",
@@ -6699,6 +6727,12 @@ name = "strsim"
 version = "0.8.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8ea5119cdb4c55b55d432abb513a0429384878c15dde60cc77b1c99de1a95a6a"
+
+[[package]]
+name = "strsim"
+version = "0.10.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "73473c0e59e6d5812c5dfe2a064a6444949f089e20eec9a2e5506596494e4623"
 
 [[package]]
 name = "subtle"
